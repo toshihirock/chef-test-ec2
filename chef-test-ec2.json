@@ -5,7 +5,7 @@
     "source_ami": "ami-9a2fb89a",
     "instance_type": "t2.micro",
     "ssh_username": "ec2-user",
-    "ssh_timeout": "5m",
+    "ssh_timeout": "10m",
     "user_data_file": "user_data",
     "ami_name": "test_chef_ami {{timestamp}}"
   }],
